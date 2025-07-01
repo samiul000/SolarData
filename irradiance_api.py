@@ -1,11 +1,9 @@
 import os
 import requests
 import calendar
-from dotenv import load_dotenv
+import streamlit as st
 
-load_dotenv()
-
-API_KEY = os.getenv("NASA_API")
+API_KEY = st.secrets["NASA_API"]
 PARAMS = "ALLSKY_SFC_SW_DWN"
 COMMUNITY = "RE"
 FORMAT = "JSON"
