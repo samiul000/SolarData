@@ -6,7 +6,7 @@ Just provide latitude, longitude of a place using any website as you like and se
 
 ### Run Locally
 Step - 1 : Clone the repository on your machine.
-``Link``
+``https://github.com/samiul000/SolarData.git``
 
 Step - 2 : Extract the folder.
 
@@ -16,3 +16,4 @@ Step - 4 : Run
 ``streamlit run main.py``
 
 This will run the webapp on your browser in localhost.
+Note : You have to have a your own NASA Api to run it locally.
