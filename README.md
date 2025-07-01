@@ -12,8 +12,8 @@ Simply provide the **latitude and longitude of any location**, these can be obta
 
 **Data Output Example**
 
-![Data Output](assets/ss2(1).png)
-![Data Output](assets/ss2(2).png)
+![Data Output](assets/ss2.png)
+![Data Output](assets/ss3.png)
 
 ### Run Locally
 Step 1: Clone the repository to your local machine:
