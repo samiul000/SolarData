@@ -1,19 +1,24 @@
 ## Introduction
-SolarData is a Webapp based on NASA API, Python and Streamlit library. It uses NASA API to fetch data from nasa weather database and shows monthly total solar power and average monthly sun hours based the latitude and longitude of a place according the year user wanted.
+**SolarData is a web application built using Python and the Streamlit library that leverages the NASA API to fetch solar weather data. It provides detailed insights by displaying the monthly total solar power and average monthly sun hours for a specified location, based on its latitude and longitude, and the year selected by the user.**
 
 ### Work Method 
-Just provide latitude, longitude of a place using any website as you like and set the year you want the data from. The webapp will fetch data for you in table and bar chart style.
+Simply provide the **latitude and longitude of any location**, these can be obtained from any website of your choice and **select the year** for which you want the data. The web app will then fetch and display the data for you in both **table and bar chart formats**.
 
 ### Run Locally
-Step - 1 : Clone the repository on your machine.
-``https://github.com/samiul000/SolarData.git``
+Step 1: Clone the repository to your local machine:
+```bash
+git clone https://github.com/samiul000/SolarData.git
+```
 
-Step - 2 : Extract the folder.
+Step 2: Extract the folder (if downloaded as a ZIP).
 
-Step - 3 : Open the terminal or command palette and navigate to the folder location
+Step 3: Open your terminal or command palette, then navigate to the project folder.
 
-Step - 4 : Run
-``streamlit run main.py``
+Step 4: Run the Streamlit app with the following command:
 
-This will run the webapp on your browser in localhost.
-Note : You have to have a your own NASA Api to run it locally.
+```bash
+streamlit run main.py
+```
+This will launch the web app in your default browser at ``localhost``.
+
+**``Note: You need to obtain your own NASA API key to run the application locally.``**
