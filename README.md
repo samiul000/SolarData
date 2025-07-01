@@ -4,6 +4,17 @@
 ### Work Method 
 Simply provide the **latitude and longitude of any location**, these can be obtained from any website of your choice and **select the year** for which you want the data. The web app will then fetch and display the data for you in both **table and bar chart formats**.
 
+### Screenshots
+
+**Homepage View**
+
+![Homepage](assets/ss1.png)
+
+**Data Output Example**
+
+![Data Output](assets/ss2(1).png)
+![Data Output](assets/ss2(2).png)
+
 ### Run Locally
 Step 1: Clone the repository to your local machine:
 ```bash
