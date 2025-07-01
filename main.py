@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import os
 from irradiance_api import (
     get_monthly_irradiance,
     format_total_energy,
@@ -13,11 +12,8 @@ from style import (
     set_text_style,
     set_glassmorphism_style
 )
-from dotenv import load_dotenv
 
-load_dotenv()
-
-NAME_KEY = os.getenv("NAME")
+NAME_KEY = st.secrets["NAME"]
 
 st.set_page_config(page_title="SolarData", page_icon="☀️")
 
