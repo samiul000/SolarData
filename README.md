@@ -1,6 +1,5 @@
 ## Introduction
 **SolarData is a web application built using Python and the Streamlit library that leverages the NASA API to fetch solar weather data. It provides detailed insights by displaying the monthly total solar power and average monthly sun hours for a specified location, based on its latitude and longitude, and the year selected by the user.**
-**URL :** 
 ```bash 
 https://solardata.streamlit.app/
 ```
